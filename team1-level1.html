@@ -10,10 +10,8 @@
     <h1>Team 1 - Level 1 (5x5 Grid)</h1>
     <div class="game-container">
         <div class="image-container">
-            <img src="https://via.placeholder.com/400" alt="hidden person" id="person-image">
-            <!-- 5x5 grid of cover divs -->
+            <img src="assets/11.jpg" alt="hidden person" id="person-image">
             <script>
-                // Dynamically generate a 5x5 grid
                 const gridSize = 5;
                 for (let row = 0; row < gridSize; row++) {
                     for (let col = 0; col < gridSize; col++) {
@@ -23,14 +21,11 @@
             </script>
         </div>
 
-        <!-- Reveal Button -->
         <button id="reveal-btn" onclick="revealAll()">Reveal</button>
 
-        <!-- <p id="message"></p> -->
 
-        <p id="celebrity-name" style="font-weight:bold; font-size: 18px; display:none;">Celebrity Name: John Doe</p> 
+        <p id="celebrity-name" style="font-weight:bold; font-size: 18px; display:none;">Celebrity Name: Bill Gates</p> 
 
-        <!-- Next Level Button (Initially Hidden) -->
         <button id="next-level-btn" onclick="goToNextLevel(1,1)" style="display:none;">Next Level</button>
     </div>
     
