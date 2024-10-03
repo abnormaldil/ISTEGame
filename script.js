@@ -44,12 +44,12 @@ function revealAll() {
     nextLevelBtn.style.display = 'block';
 }
 
-function goToNextLevel(currentLevel) {
-    const teamNumber = 1; // Update this for each team level page
+function goToNextLevel(teamNumber, currentLevel) {
     const nextLevel = currentLevel + 1; // Increment the current level
     const nextLevelUrl = `team${teamNumber}-level${nextLevel}.html`; // Construct the next level URL
     window.location.href = nextLevelUrl; // Redirect to the next level page
 }
+
 
 function goToTeamSelection() {
     window.location.href = 'index.html'; 
