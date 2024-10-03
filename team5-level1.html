@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team 5 - Level 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Team 5 - Level 1 (5x5 Grid)</h1>
+    <div class="game-container">
+        <div class="image-container">
+            <img src="https://via.placeholder.com/400" alt="hidden person" id="person-image">
+            <!-- 5x5 grid of cover divs -->
+            <script>
+                // Dynamically generate a 5x5 grid
+                const gridSize = 5;
+                for (let row = 0; row < gridSize; row++) {
+                    for (let col = 0; col < gridSize; col++) {
+                        document.write(`<div class="cover" style="width: ${100 / gridSize}%; height: ${100 / gridSize}%; left: ${col * 100 / gridSize}%; top: ${row * 100 / gridSize}%" data-number="${row * gridSize + col + 1}">${row * gridSize + col + 1}</div>`);
+                    }
+                }
+            </script>
+        </div>
+
+       
+
+        <!-- Reveal Button -->
+        <button id="reveal-btn" onclick="revealAll()">Reveal</button>
+
+        <!-- Message Section -->
+        <p id="message"></p>
+
+        <!-- Text Label for displaying the name after reveal -->
+        <p id="celebrity-name" style="font-weight:bold; font-size: 18px; display:none;">Celebrity Name: John Doe</p> 
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
