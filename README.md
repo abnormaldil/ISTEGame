@@ -58,14 +58,15 @@ This project is licensed under the MIT License.
 
 ## **Screenshots**  
 
-<p align=\"center\">  
-  <img src=\"1.png\" alt=\"Team Selection\" width=\"45%\" />  
-  <img src=\"2.png\" alt=\"Gameplay\" width=\"45%\" />  
+<p align="center">  
+  <img src="1.png" alt="Team Selection" width="45%" />  
+  <img src="2.png" alt="Gameplay" width="45%" />  
 </p>
 
-<p align=\"center\">  
-  <img src=\"3.png\" alt=\"Guessing the Personality\" width=\"60%\" />  
+<p align="center">  
+  <img src="3.png" alt="Guessing the Personality" width="60%" />  
 </p>
+
 
 *Figure 1: Team selection screen (left), Figure 2: Gameplay screen (right), Figure 3: Guessing the hidden personality (below)*" > README.md
 
