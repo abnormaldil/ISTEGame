@@ -63,5 +63,4 @@ Feel free to fork the repository, raise issues, or submit pull requests if you'd
 </p>
 
 
-*Figure 1: Team selection screen (left), Figure 2: Gameplay screen (right), Figure 3: Guessing the hidden personality (below)*" > README.md
-
+*Figure 1: Team selection screen (left), Figure 2: Gameplay screen (right), Figure 3: Guessing the hidden personality (below)*
