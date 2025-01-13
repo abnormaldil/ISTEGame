@@ -50,11 +50,7 @@ Feel free to fork the repository, raise issues, or submit pull requests if you'd
 
 ---
 
-## **License**  
 
-This project is licensed under the MIT License.  
-
----
 
 ## **Screenshots**  
 
