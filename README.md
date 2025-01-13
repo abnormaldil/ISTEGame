@@ -2,7 +2,7 @@
 echo "# **Team Matrix Game**  
 ### *Guess the Hidden Personality!*  
 
-Team Matrix Game is a web-based interactive guessing game, designed to be played by multiple teams. It\u2019s built with Flutter and offers an engaging experience where teams compete to identify a hidden personality by revealing as few boxes as possible.
+Team Matrix Game is a web-based interactive guessing game, designed to be played by multiple teams. It's built with Flutter and offers an engaging experience where teams compete to identify a hidden personality by revealing as few boxes as possible.
 
 ---
 
